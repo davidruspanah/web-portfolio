@@ -1,0 +1,111 @@
+<footer class="footer-industrial" style="background-color: #2c3e50; color: #ffffff; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; margin-top: 50px; clear: both; width: 100%;">
+    
+    <div class="footer-main-section" style="padding: 75px 0; background: #2c3e50;">
+        <div class="container-fluid" style="padding: 0 10%;">
+            <div class="row footer-flex-row" style="display: flex; align-items: center; flex-wrap: wrap;">
+                
+                <div class="col-md-4 footer-col text-center" style="border-right: 3px solid #3e4f5f; padding: 20px;">
+                    <h2 class="footer-company-name" style="font-weight: 900; font-size: 24px; letter-spacing: 1.5px; color: #ffffff; margin: 0; text-transform: uppercase; line-height: 1.3;">
+                        PT. BUANA SARANA<br>PROFESSIONAL
+                    </h2>
+                </div>
+                
+                <div class="col-md-4 footer-col footer-contact-col" style="padding: 0 50px; border-right: 3px solid #3e4f5f;">
+                    <h5 style="color: #d9534f; font-weight: 800; text-transform: uppercase; margin-bottom: 15px; font-size: 14px; letter-spacing: 1.2px;">Contact Details</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 14px; color: #ffffff; line-height: 2; font-weight: 600;">
+                        <li><i class="fa fa-map-marker" style="width: 22px; color: #d9534f; font-size: 16px;"></i> Bandung 40213, West Java, Indonesia</li>
+                        <li><i class="fa fa-envelope" style="width: 22px; color: #d9534f; font-size: 14px;"></i> info@buanasarana.com</li>
+                        <li><i class="fa fa-envelope" style="width: 22px; color: #d9534f; font-size: 14px;"></i> buanasarana@gmail.com</li>
+                        <li><i class="fa fa-phone" style="width: 22px; color: #d9534f; font-size: 16px;"></i> (+62) 022 602-7986</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-col text-center" style="padding: 20px;">
+                    <h4 style="font-weight: 800; margin-bottom: 15px; color: #ffffff; font-size: 20px; letter-spacing: 0.5px;">Ready to Work With Us?</h4>
+                    <a href="?p=contact" class="btn-contact-footer">
+                        CONTACT OUR 
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #ffffff; color: #333333; padding: 25px 0; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; border-top: 1px solid #eeeeee;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row footer-copy-row" style="font-weight: 700;">
+                        <div class="col-sm-6 text-left copyright-text">
+                            Copyright © 2026 <span style="color: #d9534f;">PT. Buana Sarana Professional</span>.
+                        </div>
+                        <div class="col-sm-6 text-right description-text" style="color: #888888;">
+                            Textile Machineries, Spareparts, & Accessories
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .btn-contact-footer {
+        display: inline-block;
+        border: 2px solid #d9534f;
+        color: #ffffff;
+        background-color: transparent;
+        padding: 12px 30px;
+        text-decoration: none !important;
+        font-weight: 800;
+        font-size: 12.5px;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+        letter-spacing: 1.2px;
+    }
+    
+    .btn-contact-footer:hover {
+        background-color: #c0392b;
+        border-color: #c0392b;
+        color: #ffffff;
+        transform: translateY(-4px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    /* --- RESPONSIVE FOOTER HP --- */
+    @media (max-width: 991px) {
+        .footer-main-section {
+            padding: 40px 0 !important; /* Pangkas padding biar ga kepanjangan */
+        }
+        .footer-flex-row { 
+            display: block !important; 
+        }
+        .footer-col { 
+            border-right: none !important; 
+            border-bottom: 1px solid rgba(255,255,255,0.1) !important; 
+            padding: 30px 15px !important; 
+            text-align: center !important; 
+        }
+        .footer-col:last-child { 
+            border-bottom: none !important; 
+        }
+        .footer-contact-col {
+            padding: 30px 15px !important;
+        }
+        .footer-contact-col ul {
+            display: inline-block;
+            text-align: left; /* Biar list contact tetep rapi kiri tapi di tengah */
+        }
+        .footer-company-name {
+            font-size: 20px !important;
+        }
+        .copyright-text, .description-text { 
+            text-align: center !important; 
+            margin-bottom: 10px;
+        }
+        .footer-copy-row {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
